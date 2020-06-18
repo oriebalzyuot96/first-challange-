@@ -8,3 +8,5 @@ to build table :
 *event lisnner 
 *https://stackoverflow.com/questions/20772954/add-click-event-on-div-tag-using-javascript
 *https://stackoverflow.com/questions/54508019/click-on-multiple-elements-same-class-name
+*https://stackoverflow.com/questions/5677799/how-to-append-data-to-div-using-javascript//
+//

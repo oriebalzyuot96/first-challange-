@@ -18,6 +18,47 @@ var clk = document.getElementsByClassName('cell');
 
 Array.prototype.forEach.call(clk, function(element) {
   element.addEventListener('click', function() {
-    console.log('data-wow value is: ' + element.dataset.wow);
+    // console.log('data-wow value is: ' + element.dataset.wow);
+
+
+
+    var div = document.getElementById('1');
+    if(div === " "){
+    	console.log("not empty")
+    }
+    	else{
+     div.innerHTML += 'x';
+    }
+
+
+    var div = document.getElementById('2');
+    div.innerHTML += 'x';
+
+
+    var div = document.getElementById('3');
+     div.innerHTML += 'x';
+
+    var div = document.getElementById('4');
+    div.innerHTML += 'x';
+
+    var div = document.getElementById('5');
+     div.innerHTML += 'x';
+
+    var div = document.getElementById('6');
+    div.innerHTML += 'x';
+
+    var div = document.getElementById('7');
+     div.innerHTML += 'x';
+
+    var div = document.getElementById('8');
+    div.innerHTML += 'x';
+
+
+    var div = document.getElementById('9');
+    div.innerHTML += 'x';
+
+
+
   });
+
 });
