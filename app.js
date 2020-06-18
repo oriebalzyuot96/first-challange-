@@ -8,106 +8,197 @@
 // 	console.log("orieb")
 // },false)
 
-// document.getElementsByClassName('cell2')[0]
-//         .addEventListener('click', function (event) {
-//             // do something
-//             console.log("cell2")
-//         });
 
 
 //add 2player (switch)
 //click by one player
 //toggle and check ???
 
+//textcontent..check
 
 
-
-
-
-
-var clk = document.getElementsByClassName('cell');
-
-Array.prototype.forEach.call(clk, function(element) {
-  element.addEventListener('click', function() {
-    // console.log('data-wow value is: ' + element.dataset.wow);
-
-
-
-    var div = document.getElementById('1');
-    if(div === "x"){
-    	console.log("not empty")
+var value = ["x","o"]
+document.getElementsByClassName('cell1')[0]
+        .addEventListener('click', function (event) {
+            // do something
+            //console.log("cell1")
+            var div = document.getElementById('1');
+             if ( (div.textContent ===value[0])||(div.textContent ===value[1])){
+   	 	console.log("done")
     }
     	else{
-     div.innerHTML += 'x';
-    }
+     div.innerHTML += value[0];
+    
+   }
+        });
 
 
-    var div = document.getElementById('2');
 
-   if(div === "o"){
-    	console.log("not empty")
+
+
+document.getElementsByClassName('cell2')[0]
+        .addEventListener('click', function (event) {
+            // do something
+            //console.log("cell1")
+            var div2 = document.getElementById('2');
+             if ( (div2.textContent ===value[0])||(div2.textContent ===value[1])){
+   	 	console.log("done")
     }
     	else{
-     div.innerHTML += "o";
-    }
+     div2.innerHTML += value[1];
+    
+   }
+        });
 
-    var div = document.getElementById('3');
-     if(div === "x"){
-    	console.log("not empty")
+
+
+
+
+document.getElementsByClassName('cell3')[0]
+        .addEventListener('click', function (event) {
+            // do something
+            //console.log("cell1")
+            var div = document.getElementById('3');
+             if ( (div.textContent ===value[0])||(div.textContent ===value[1])){
+   	 	console.log("done")
     }
     	else{
-     div.innerHTML += 'x';
-    }
+     div.innerHTML += value[0];
+    
+   }
+        });
 
-    var div = document.getElementById('4');
-   if(div === "o"){
-    	console.log("not empty")
+
+document.getElementsByClassName('cell4')[0]
+        .addEventListener('click', function (event) {
+            // do something
+            //console.log("cell1")
+            var div = document.getElementById('4');
+             if ( (div.textContent ===value[0])||(div.textContent ===value[1])){
+   	 	console.log("done")
     }
     	else{
-     div.innerHTML += 'o';
-    }
+     div.innerHTML += value[1];
+    
+   }
+        });
 
-    var div = document.getElementById('5');
-     if(div === "x"){
-    	console.log("not empty")
+
+
+document.getElementsByClassName('cell5')[0]
+        .addEventListener('click', function (event) {
+            // do something
+            //console.log("cell1")
+            var div5 = document.getElementById('5');
+             if ( (div5.textContent === " ")){
+             	div5.innerHTML += value[0];
+   	 	
+   	 	
     }
+    	
     	else{
-     div.innerHTML += 'x';
-    }
-    var div = document.getElementById('6');
-  if(div === "o"){
-    	console.log("not empty")
-    }
-    	else{
-     div.innerHTML += 'o';
-    }
-
-    var div = document.getElementById('7');
-     if(div === "x"){
-    	console.log("not empty")
-    }
-    	else{
-     div.innerHTML += 'x';
-    }
-
-    var div = document.getElementById('8');
-  if(div === "o"){
-    	console.log("not empty")
-    }
-    	else{
-     div.innerHTML += 'o';
-    }
-
-
-    var div = document.getElementById('9');
-   if(div === "x"){
-    	console.log("not empty")
-    }
-    	else{
-     div.innerHTML += 'x';
-    }
-
-
-  });
-
+    console.log("done")
+    
+   }
+   //      
 });
+
+
+
+document.getElementsByClassName('cell6')[0]
+        .addEventListener('click', function (event) {
+            // do something
+            //console.log("cell1")
+            var div = document.getElementById('6');
+             if ( (div.textContent ===value[0])||(div.textContent ===value[1])){
+   	 	console.log("done")
+    }
+    	else{
+     div.innerHTML += value[1];
+    
+   }
+        });
+
+document.getElementsByClassName('cell7')[0]
+        .addEventListener('click', function (event) {
+            // do something
+            //console.log("cell1")
+            var div = document.getElementById('7');
+             if ( (div.textContent ===value[0])||(div.textContent ===value[1])){
+   	 	console.log("done")
+    }
+    	else{
+     div.innerHTML += value[0];
+    
+   }
+        });
+
+
+document.getElementsByClassName('cell8')[0]
+        .addEventListener('click', function (event) {
+            // do something
+            //console.log("cell1")
+            var div = document.getElementById('8');
+             if ( (div.textContent ===value[0])||(div.textContent ===value[1])){
+   	 	console.log("done")
+    }
+    	else{
+     div.innerHTML += value[1];
+    
+   }
+        });
+
+
+document.getElementsByClassName('cell9')[0]
+        .addEventListener('click', function (event) {
+            // do something
+            //console.log("cell1")
+            var div = document.getElementById('9');
+             if ( (div.textContent ===value[0])||(div.textContent ===value[1])){
+   	 	console.log("done")
+    }
+    	else{
+     div.innerHTML += value[0];
+    
+   }
+        });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var clk = document.getElementsByClassName('cell');
+
+// Array.prototype.forEach.call(clk, function(element) {
+//   element.addEventListener('click', function() {
+//     // console.log('data-wow value is: ' + element.dataset.wow);
+
+// var div = document.getElementById('1');
+//     // if(div === "x"){
+//     // 	console.log("not empty")
+//     // }
+//     // 	else{
+//     //  div.innerHTML += 'x';
+//     // }
+//   if ( (div.textContent ===value[0])||(div.textContent ===value[0])){
+//    	 	console.log("empty")
+//     }
+//     	else{
+//      div.innerHTML += value[0];
+    
+//    }
+
+
+
+//      });
+
+// });

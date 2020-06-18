@@ -5,6 +5,7 @@ html, body {
     padding:0;
     text-align:center;
 }
+
 .table {
     display:table;
     width:100%;
@@ -21,7 +22,7 @@ html, body {
    background-color:White;
    background-color:#00BCCE;
 }
-.cell{
+.cell1,.cell2,.cell3,.cell4,.cell5,.cell6,.cell7,.cell8,.cell9{
    /* display:table-cell;
     width:10%;
     height:100%;
@@ -36,7 +37,14 @@ html, body {
     padding: 10px 10px 10px 10px;
     font-size:larger;
 }
-./*cell2 > img {
-    width:100%;
-    height:auto;
-}*/
+#title:{
+     text-align:center;
+    width:350px;
+    overflow:hidden;
+    margin:20px auto;
+    background:#eee;
+    position:relative;
+    font-family:sans-serif;
+    color:#0150B9;
+    border:18px solid;
+}
