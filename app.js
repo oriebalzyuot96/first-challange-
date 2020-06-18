@@ -14,6 +14,17 @@
 //             console.log("cell2")
 //         });
 
+
+//add 2player (switch)
+//click by one player
+//toggle and check ???
+
+
+
+
+
+
+
 var clk = document.getElementsByClassName('cell');
 
 Array.prototype.forEach.call(clk, function(element) {
@@ -23,7 +34,7 @@ Array.prototype.forEach.call(clk, function(element) {
 
 
     var div = document.getElementById('1');
-    if(div === " "){
+    if(div === "x"){
     	console.log("not empty")
     }
     	else{
@@ -32,31 +43,69 @@ Array.prototype.forEach.call(clk, function(element) {
 
 
     var div = document.getElementById('2');
-    div.innerHTML += 'x';
 
+   if(div === "o"){
+    	console.log("not empty")
+    }
+    	else{
+     div.innerHTML += "o";
+    }
 
     var div = document.getElementById('3');
+     if(div === "x"){
+    	console.log("not empty")
+    }
+    	else{
      div.innerHTML += 'x';
+    }
 
     var div = document.getElementById('4');
-    div.innerHTML += 'x';
+   if(div === "o"){
+    	console.log("not empty")
+    }
+    	else{
+     div.innerHTML += 'o';
+    }
 
     var div = document.getElementById('5');
+     if(div === "x"){
+    	console.log("not empty")
+    }
+    	else{
      div.innerHTML += 'x';
-
+    }
     var div = document.getElementById('6');
-    div.innerHTML += 'x';
+  if(div === "o"){
+    	console.log("not empty")
+    }
+    	else{
+     div.innerHTML += 'o';
+    }
 
     var div = document.getElementById('7');
+     if(div === "x"){
+    	console.log("not empty")
+    }
+    	else{
      div.innerHTML += 'x';
+    }
 
     var div = document.getElementById('8');
-    div.innerHTML += 'x';
+  if(div === "o"){
+    	console.log("not empty")
+    }
+    	else{
+     div.innerHTML += 'o';
+    }
 
 
     var div = document.getElementById('9');
-    div.innerHTML += 'x';
-
+   if(div === "x"){
+    	console.log("not empty")
+    }
+    	else{
+     div.innerHTML += 'x';
+    }
 
 
   });
