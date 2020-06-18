@@ -21,7 +21,7 @@ html, body {
    background-color:White;
    background-color:#00BCCE;
 }
-.cell1, .cell2, .cell3 {
+.cell{
    /* display:table-cell;
     width:10%;
     height:100%;
